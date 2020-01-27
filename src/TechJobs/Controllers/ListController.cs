@@ -34,7 +34,7 @@ namespace TechJobs.Controllers
             {
                 SearchJobsViewModel jobsViewModel = new SearchJobsViewModel();
                 jobsViewModel.Jobs = jobData.Jobs;
-                jobsViewModel.Title =  "All Jobs";
+                //jobsViewModel.Title =  "All Jobs";
                 return View("Jobs", jobsViewModel);
             }
             else
