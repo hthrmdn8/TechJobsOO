@@ -20,14 +20,14 @@ namespace TechJobs.ViewModels
         public string Value { get; set; } = "";
 
         // All columns, for display
-       // public List<JobFieldType> Columns { get; set; }
+        public List<JobFieldType> Columns { get; set; }
 
         // View title
         public string Title { get; set; } = "";
 
         public SearchJobsViewModel()
         {
-            /* Populate the list of all columns
+            //Populate the list of all columns
 
             Columns = new List<JobFieldType>();
 
@@ -35,7 +35,7 @@ namespace TechJobs.ViewModels
             {
                 Columns.Add(enumVal);
             }
-            */
+            
 
         }
     }
